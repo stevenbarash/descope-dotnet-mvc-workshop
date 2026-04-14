@@ -33,7 +33,7 @@ Stop the app with `Ctrl+C`.
 1. Sign in to the [Descope Console](https://app.descope.com)
 2. Create a new project (or use an existing one)
 3. Go to **Project Settings** and copy your **Project ID**
-4. Under **Authentication Methods**, enable at least one method (e.g., Email OTP or OAuth)
+4. Every new project includes a default flow with the ID `sign-up-or-in` — this is the flow the app uses. You can see it under **Flows** in the console. If you'd prefer a different template, browse the [Flow Library](https://app.descope.com/flows/library) and replace the `flow-id` value in `Views/Auth/Login.cshtml` to match
 
 ---
 
